@@ -1,9 +1,16 @@
 @import './normalize';
+@import './components/variables';
+@import './components/main';
 
-@import './header';
-@import './hero';
-@import './section1';
-@import './section2';
-@import './section3';
-@import './section4';
-@import './footer';
+@import './components/buttons';
+@import './components/arrows';
+
+@import './homepage/index';
+@import './hotel/index';
+@import './restaurant/index';
+@import './room/index';
+
+@import './components/modal-reserve-room/index';
+@import './components/modal-reserve-table/index';
+@import './components/modal-room-price/index';
+
